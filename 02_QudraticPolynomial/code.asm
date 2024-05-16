@@ -1,38 +1,3 @@
-```markdown
-# MIPS Program for Determining Solutions of a Quadratic Polynomial
-
-## Description
-This MIPS assembly program determines the nature of solutions of a quadratic polynomial in the form ax^2 + bx + c.
-- The coefficients a, b, and c are inputted by the user.
-- The program then calculates the discriminant (b^2 - 4ac) to determine whether the polynomial has real solutions, distinct real solutions, or no real solutions.
-- Messages indicating the nature of the solutions are displayed to the user.
-
-## Usage
-1. Run the program in a MIPS assembly environment.
-2. Enter the coefficients a, b, and c when prompted.
-3. The program will then determine the nature of solutions of the quadratic polynomial and display the appropriate message.
-4. The program will exit after displaying the message.
-
-## Implementation Details
-- The program prompts the user to enter the coefficients a, b, and c.
-- It calculates the discriminant (b^2 - 4ac) using the entered coefficients.
-- Based on the value of the discriminant, the program determines whether the polynomial has real solutions, distinct real solutions, or no real solutions.
-- Messages indicating the nature of solutions are displayed accordingly.
-
-## Files
-- `quadratic_polynomial.asm`: The MIPS assembly code for the quadratic polynomial solver program.
-
-## Requirements
-- A MIPS assembly environment to run the program.
-
-## Instructions for Running the Program
-1. Load the `quadratic_polynomial.asm` file into your MIPS assembly environment.
-2. Assemble and run the program.
-3. Follow the on-screen instructions to input the coefficients a, b, and c.
-4. View the output message to determine the nature of solutions of the quadratic polynomial.
-
-```
-```assembly
 .data
     msg1: .asciiz "The polynomial has distinct real solutions."
     msg2: .asciiz "The polynomial has coincident real solutions."
