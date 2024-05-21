@@ -7,7 +7,7 @@
 .text
     .globl main
     .ent main
-main:
+    main:
         # $t0 = dim
         la $t0, dim
         lw $t0, ($t0)
