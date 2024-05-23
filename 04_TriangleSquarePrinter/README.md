@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a MIPS Assembly program that prints a right-angled isosceles triangle and a square, both with sides of length 8, using asterisks (`*`). The program is designed to be run in the QTSpim simulator.
+This folder contains a MIPS Assembly program that prints a right-angled isosceles triangle and a square, both with sides of length 8, using asterisks (`*`). The program is designed to be run in the QTSpim simulator.
 
 ## Program Description
 
